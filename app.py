@@ -256,7 +256,7 @@ PLANT_INFO = {
 @st.cache_resource
 def load_model():
     try:
-        model = keras.models.load_model('best_model_herbal_mobilenetv2.h5')
+        model = tf.keras.models.load_model('best_model_herbal_mobilenetv2.h5')
         return model
     except:
         st.error("⚠️ Model tidak ditemukan! Pastikan file 'best_model_herbal_mobilenetv2.h5' ada di folder yang sama.")
