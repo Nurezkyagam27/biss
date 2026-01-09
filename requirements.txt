@@ -1,10 +1,21 @@
+# Requirements untuk Python 3.11+
+# Hanya untuk Python 3.11 atau lebih baru
+
+# Core ML Framework (versi terbaru untuk Python 3.11+)
+tensorflow==2.15.0
+
+# Streamlit & UI
 streamlit==1.28.0
-tensorflow==2.13.0
-keras==2.13.0
-h5py==3.9.0
+
+# Image Processing
 pillow==10.0.0
 opencv-python-headless==4.8.0.76
-plotly==5.17.0
+
+# Data Processing & Visualization
 numpy==1.24.3
 pandas==2.1.0
+plotly==5.17.0
+
+# Supporting Libraries
+h5py==3.10.0
 protobuf==3.20.3
